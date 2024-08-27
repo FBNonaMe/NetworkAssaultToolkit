@@ -10,8 +10,12 @@
 NetworkAssaultToolkit is a versatile Python-based tool designed for stress-testing network endpoints and launching Layer 7 HTTP attacks. The tool includes various methods to simulate large-scale attacks on network infrastructure, including methods for bypassing Cloudflare, OVH, and other security measures
 
 ```bash
+git clone https://github.com/FBNonaMe/NetworkAssaultToolkit.git
+cd NetworkAssaultToolkit
 pip install requests cloudscraper
 python NetworkAssaultToolkit.py <method> <url> [--port PORT] [--delay DELAY] [--threads THREADS] [--duration DURATION] [--payload_size PAYLOAD_SIZE] [--connections_per_thread CONNECTIONS_PER_THREAD] [--udp_threads UDP_THREADS] [--tcp_workers TCP_WORKERS]
+
+
 
 Параметры
 
